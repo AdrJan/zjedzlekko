@@ -1,3 +1,8 @@
+import algorithm.MealGenerator;
+import base_elements.Macros;
+import base_elements.Portion;
+import base_elements.Product;
+
 import java.util.*;
 
 public class Meals {

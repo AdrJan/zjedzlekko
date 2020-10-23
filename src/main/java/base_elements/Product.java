@@ -1,3 +1,5 @@
+package base_elements;
+
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -50,7 +52,7 @@ public class Product implements Comparable, Cloneable {
 
     @Override
     public String toString() {
-        return "Product{" +
+        return "base_elements.Product{" +
                 "name='" + name + '\'' +
                 ", macros=" + macros +
                 '}';

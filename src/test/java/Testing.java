@@ -1,3 +1,5 @@
+import base_elements.Macros;
+import base_elements.Product;
 import org.junit.Assert;
 import org.junit.Test;
 

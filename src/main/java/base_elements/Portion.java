@@ -1,3 +1,5 @@
+package base_elements;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -47,7 +49,7 @@ public class Portion implements Comparable, Cloneable {
     }
 
     @Override
-    protected Object clone() {
+    public Object clone() {
         Portion clone;
         try {
             clone = (Portion) super.clone();
@@ -61,7 +63,7 @@ public class Portion implements Comparable, Cloneable {
 
     @Override
     public String toString() {
-        return "Portion{" +
+        return "base_elements.Portion{" +
                 "product=" + product +
                 ", quantity=" + quantity +
                 '}';

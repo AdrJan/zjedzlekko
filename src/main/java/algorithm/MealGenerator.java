@@ -1,3 +1,9 @@
+package algorithm;
+
+import base_elements.Macros;
+import base_elements.Portion;
+import base_elements.Product;
+
 import java.util.*;
 
 public class MealGenerator {
@@ -9,7 +15,7 @@ public class MealGenerator {
     private static final int MACRO_NOT_SUFF = 0;
     private static final int MACRO_IN_RANGE = 1;
 
-    Set<List<Portion>> generateMeals(Macros desiredMacro, Set<Product> baseProducts) {
+    public Set<List<Portion>> generateMeals(Macros desiredMacro, Set<Product> baseProducts) {
         Set<List<Portion>> possibleMeals = new HashSet<>();
         addProduct(null, new ArrayList<>(), possibleMeals, baseProducts, desiredMacro);
         return possibleMeals;

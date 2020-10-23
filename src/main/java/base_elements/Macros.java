@@ -1,3 +1,5 @@
+package base_elements;
+
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -12,7 +14,7 @@ public class Macros {
 
     @Override
     public String toString() {
-        return "Macros{" +
+        return "base_elements.Macros{" +
                 "protein=" + protein +
                 ", fat=" + fat +
                 ", carbo=" + carbo +
